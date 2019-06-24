@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ssm_common" />
+        <module name="ssm_manager_mapper" />
+        <module name="ssm_manager_pojo" />
+        <module name="ssm_manager_service" />
+        <module name="ssm_manager_web" />
+        <module name="ssm_redis" />
+        <module name="ssm_rest" />
+        <module name="ssm_search" />
+        <module name="ssm_sso" />
+        <module name="SSMproject" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SSMproject" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
