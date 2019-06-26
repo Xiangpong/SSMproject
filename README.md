@@ -497,6 +497,8 @@ jdbc_password =
 
 #### 190620 SSM框架整合完成第一步
 
+---
+
 #### Mybatis的逆向工程
 
 >MyBatis的一个主要的特点就是需要程序员自己编写sql，那么如果表太多的话，难免会很麻烦，所以mybatis官方提供了一个逆向工程，可以针对单表自动生成mybatis执行所需要的代码（包括mapper.xml、mapper.java、po..）。一般在开发中，常用的逆向工程方式是通过数据库的表生成代码。
@@ -623,6 +625,8 @@ public class UserController {
 ```
 #### 190624 SSM框架整合完成
 
+---
+
 ## 搭建项目后台管理系统
 
 #### EasyUI
@@ -650,14 +654,15 @@ EasyUI是一个简单的HTML5网页前端框架，这里用它来做后台管理
 ！！解决：把```<mvc:resources>```配置好就行了，注意路径问题
 
 #### 190625 完成设计布局 1
-[![powerdesigner表创建.png](https://i.loli.net/2019/06/26/5d1315f27778062025.png)](https://i.loli.net/2019/06/26/5d1315f27778062025.png)
 
+---
 
 #### PowerDesigner
 
 **使用PowerDesigner设计数据库表**
 
-图
+[![powerdesigner表创建.png](https://i.loli.net/2019/06/26/5d1315f27778062025.png)](https://i.loli.net/2019/06/26/5d1315f27778062025.png)
+
 
 **测试连接数据库**
 
@@ -745,3 +750,5 @@ public class ProductControllerServiceImpl implements ProductCategoryService {
 解决：在Maven里对parent进行install解决
 
 [![Maven依赖问题解决.png](https://i.loli.net/2019/06/26/5d1315ef0118972314.png)](https://i.loli.net/2019/06/26/5d1315ef0118972314.png)
+
+#### 190626 完成设计布局2
