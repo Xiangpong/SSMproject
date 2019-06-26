@@ -623,8 +623,125 @@ public class UserController {
 ```
 #### 190624 SSM框架整合完成
 
+## 搭建项目后台管理系统
+
+#### EasyUI
+
+EasyUI是一个简单的HTML5网页前端框架，这里用它来做后台管理界面
+
+官网：http://www.jeasyui.net/
+
+* 选择基于JQuery的压缩包下载
+
+#### 配置EasyUI
+
+* 在wabapp文件夹创建css、js子文件夹
+* 解压EasyUI压缩包
+* 复制解压包内的themes文件夹到css文件夹
+* 复制解压包内的jquery.min.js、jquery.easyui.min.js 文件到js文件夹
+* 配置springmvc.xml，添加：
+
+```xml
+<mvc:resources mapping="/css/**" location="/css/"/>
+<mvc:resources mapping="/js/**" location="/js/"/>
+```
+！！过程中问题：css、js等静态文件被springmvc拦截，导致网页样式，事件失效
+
+！！解决：把```<mvc:resources>```配置好就行了，注意路径问题
+
+#### 190625 完成设计布局 1
+[![powerdesigner表创建.png](https://i.loli.net/2019/06/26/5d1315f27778062025.png)](https://i.loli.net/2019/06/26/5d1315f27778062025.png)
 
 
+#### PowerDesigner
 
+**使用PowerDesigner设计数据库表**
 
+图
 
+**测试连接数据库**
+
+！！测试连接时发现配置信息都正确却怎么也连接不上
+
+！！需要给PowerDesigner配置32位的jdk
+
+[![给PowerDesigner配置32位jdk.png](https://i.loli.net/2019/06/26/5d1315ef1a4a010744.png)](https://i.loli.net/2019/06/26/5d1315ef1a4a010744.png)
+
+[![powerdesigner测试连接.png](https://i.loli.net/2019/06/26/5d131666494d672435.png)](https://i.loli.net/2019/06/26/5d131666494d672435.png)
+
+**使用PowerDesigner创建数据库表**
+
+[![创建商品表.png](https://i.loli.net/2019/06/26/5d1315f37a2b623734.png)](https://i.loli.net/2019/06/26/5d1315f37a2b623734.png)
+
+#### 获取商品分类列表的后端实现
+
+* 使用逆向工程对刚刚创建的product表和product_category表生成mapper，pojo文件
+
+* 关键代码
+
+ProductController
+
+```java
+/**
+ * 商品分类管理控制器
+ */
+@Controller
+@RequestMapping("/product_category")
+public class ProductCategoryController {
+    /*
+    根据id返回数据列表
+     */
+    @Autowired
+    ProductCategoryService productCategoryService;
+
+    @RequestMapping("/list")
+    @ResponseBody
+    public List<EasyUITree> getProductCategoryByParentId(@RequestParam(value = "id",defaultValue = "0")short parentId){
+        List<EasyUITree> easyUITrees = productCategoryService.findProductCategoryListByParentId(parentId);
+        return easyUITrees;
+    }
+}
+```
+
+ProductControllerServiceImpl
+
+```java
+@Service
+public class ProductControllerServiceImpl implements ProductCategoryService {
+
+    @Autowired
+    private ProductCategoryMapper productCategoryMapper;
+    
+    @Override
+    public List<EasyUITree> findProductCategoryListByParentId(Short parentId) {
+        ProductCategoryExample productCategoryExample = new ProductCategoryExample();
+        ProductCategoryExample.Criteria criteria = productCategoryExample.createCriteria();
+        criteria.andParentIdEqualTo(parentId);
+
+        List<ProductCategory> productCategoriesList = productCategoryMapper.selectByExample(productCategoryExample);
+        List<EasyUITree> easyUITrees = new ArrayList(productCategoriesList.size());
+
+        for (ProductCategory productCategory:productCategoriesList) {
+                EasyUITree easyUITree  = new EasyUITree();
+                easyUITree.setId(productCategory.getId());
+                easyUITree.setText(productCategory.getName());
+                easyUITree.setState(productCategory.getParentId()==0? "closed":"open");
+
+                easyUITrees.add(easyUITree);
+        }
+        return easyUITrees;
+    }
+}
+```
+
+#### 测试结果
+
+[![测试结果4.png](https://i.loli.net/2019/06/26/5d1315f18c25967872.png)](https://i.loli.net/2019/06/26/5d1315f18c25967872.png)
+
+#### 过程中问题
+
+是一个Maven的整合问题，出现“Could not resolve dependencies for project”的错误
+
+解决：在Maven里对parent进行install解决
+
+[![Maven依赖问题解决.png](https://i.loli.net/2019/06/26/5d1315ef0118972314.png)](https://i.loli.net/2019/06/26/5d1315ef0118972314.png)
