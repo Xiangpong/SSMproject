@@ -497,8 +497,6 @@ jdbc_password =
 
 #### 190620 SSM框架整合完成第一步
 
----
-
 #### Mybatis的逆向工程
 
 >MyBatis的一个主要的特点就是需要程序员自己编写sql，那么如果表太多的话，难免会很麻烦，所以mybatis官方提供了一个逆向工程，可以针对单表自动生成mybatis执行所需要的代码（包括mapper.xml、mapper.java、po..）。一般在开发中，常用的逆向工程方式是通过数据库的表生成代码。
@@ -625,11 +623,9 @@ public class UserController {
 ```
 #### 190624 SSM框架整合完成
 
----
-
 ## 搭建项目后台管理系统
 
-#### EasyUI
+### EasyUI
 
 EasyUI是一个简单的HTML5网页前端框架，这里用它来做后台管理界面
 
@@ -655,14 +651,13 @@ EasyUI是一个简单的HTML5网页前端框架，这里用它来做后台管理
 
 #### 190625 完成设计布局 1
 
----
 
-#### PowerDesigner
+
+### PowerDesigner
 
 **使用PowerDesigner设计数据库表**
 
 [![powerdesigner表创建.png](https://i.loli.net/2019/06/26/5d1315f27778062025.png)](https://i.loli.net/2019/06/26/5d1315f27778062025.png)
-
 
 **测试连接数据库**
 
@@ -678,7 +673,7 @@ EasyUI是一个简单的HTML5网页前端框架，这里用它来做后台管理
 
 [![创建商品表.png](https://i.loli.net/2019/06/26/5d1315f37a2b623734.png)](https://i.loli.net/2019/06/26/5d1315f37a2b623734.png)
 
-#### 获取商品分类列表的后端实现
+### 获取商品分类列表的后端实现
 
 * 使用逆向工程对刚刚创建的product表和product_category表生成mapper，pojo文件
 
@@ -751,4 +746,227 @@ public class ProductControllerServiceImpl implements ProductCategoryService {
 
 [![Maven依赖问题解决.png](https://i.loli.net/2019/06/26/5d1315ef0118972314.png)](https://i.loli.net/2019/06/26/5d1315ef0118972314.png)
 
-#### 190626 完成设计布局2
+---
+
+### 商品分类列表的增删改实现
+
+[![分类的增删改查2.png](https://i.loli.net/2019/07/01/5d19e9c87dda469186.png)](https://i.loli.net/2019/07/01/5d19e9c87dda469186.png)
+
+#### 前端关键代码
+
+```JavaScript
+<script>
+        $(function () {
+            $('#productCategory').tree({
+                url: "/product_category/list",
+                onContextMenu: function(e, node){
+                    e.preventDefault();
+                    // select the node
+                    $('#productCategory').tree('select', node.target);
+                    // display context menu
+                    $('#mm').menu('show', {
+                        left: e.pageX,
+                        top: e.pageY
+                    });
+                },
+                onAfterEdit:function (node) {
+                    var _tree = $('#productCategory');
+                    if (node.id == 0){
+                        $.post("/product_category/add",{ parentId:node.parentId,name:node.text},function (data) {
+                            if (data.status==200) {
+                                _tree.tree("update",{
+                                    target:node.target,
+                                    id:data.msg
+                                })
+                            }else {
+                                $.messager.alert("添加失败")
+                            }
+                        })
+                    }else {
+                        $.post("product_category/update",{id:node.id,name:node.text})
+                    }
+                }
+            });
+        })
+
+        function append() {
+            //添加分类
+            var tree = $('#productCategory');
+            var node = tree.tree('getSelected');
+            tree.tree('append', {
+                parent: (node?node.target:null),
+                data: [
+                    {
+                        id:0,
+                        parentId:node.id,
+                        text:"新建子分类"
+                    }
+                ]
+            });
+            var _selected = tree.tree("find",0);
+            tree.tree("select",_selected.target).tree('beginEdit',_selected.target)
+        }
+
+        function appendF() {
+            //添加父分类
+            var tree = $('#productCategory');
+            var node = tree.tree('getSelected');
+            tree.tree('append', {
+                parent: null,
+                data: [
+                    {
+                        id:0,
+                        parentId:0,
+                        text:"新建父分类"
+                    }
+                ]
+            });
+            var _selected = tree.tree("find",0);
+            tree.tree("select",_selected.target).tree('beginEdit',_selected.target)
+        }
+
+
+
+        function reEdit() {
+            //编辑
+            var tree = $('#productCategory');
+            var node = tree.tree('getSelected');
+            tree.tree('beginEdit',node.target)
+
+        }
+
+        function remove() {
+            //删除
+            var tree = $('#productCategory');
+            var node = tree.tree('getSelected');
+            $.messager.confirm('确认','确定删除名为 '+node.text+' 的分类吗？',function(r){
+                if(r){
+                    $.post("product_category/delete",{parentId:node.attributes,id:node.id},function(){
+                        tree.tree("remove",node.target);
+                    });
+                }
+            });
+        }
+</script>
+```
+**基本效果图**
+
+[![分类的增删改查1.png](https://i.loli.net/2019/07/01/5d19e9c8698b098180.png)](https://i.loli.net/2019/07/01/5d19e9c8698b098180.png)
+
+#### 逐步实现增、删、改功能  --- 后端关键代码
+
+1. 在common模块创建一个ResponseJsonResult实体类，用来打包服务器返回的json信息
+
+```java
+
+ private int status = 200;
+    private String msg;
+    private Object obj;
+    private List<?> list = new ArrayList<Object>();
+
+...get...set...
+
+```
+2. 在接口ProductCategoryService新增删改方法
+
+```java
+
+ResponseJsonResult addCategory(Short parentId, String name);
+
+ResponseJsonResult updateCategory(Short id,String name);
+
+ResponseJsonResult deleteCategory(Short parentId,Short id);
+
+```
+
+3. 在实现类ProductCategoryServiceImpl实现这三个方法
+
+```java
+
+/*
+插入方法
+*/
+
+public ResponseJsonResult addCategory(Short parentId, String name) {
+
+        ProductCategory productCategory = new ProductCategory();
+        productCategory.setParentId(parentId);
+        productCategory.setName(name);
+
+        productCategoryMapper.insert(productCategory);
+        ResponseJsonResult responseJsonResult = new ResponseJsonResult();
+        responseJsonResult.setMsg(productCategory.getId()+"");
+
+        return responseJsonResult;
+    }
+
+
+/*
+更新方法
+*/
+ public ResponseJsonResult updateCategory(Short id, String name) {
+        ProductCategory productCategory = new ProductCategory();
+        productCategory.setName(name);
+        productCategory.setId(id);
+
+        productCategoryMapper.updateByPrimaryKey(productCategory);
+        ResponseJsonResult responseJsonResult = new ResponseJsonResult();
+        responseJsonResult.setMsg(productCategory.getId()+"");
+
+        return responseJsonResult;
+    }
+
+
+/*
+删除方法
+*/
+ public ResponseJsonResult deleteCategory(Short parentId, Short id) {
+        ProductCategoryExample productCategoryExample = new ProductCategoryExample();
+        ProductCategoryExample.Criteria criteria = productCategoryExample.createCriteria();
+
+        if (parentId != 0){
+            criteria.andIdEqualTo(id);
+
+        }else {
+            criteria.andIdEqualTo(id);
+            ProductCategoryExample.Criteria criteriaL = productCategoryExample.createCriteria();
+            criteriaL.andParentIdEqualTo(id);
+            productCategoryExample.or(criteriaL);
+        }
+
+        productCategoryMapper.deleteByExample(productCategoryExample);
+
+        ResponseJsonResult responseJsonResult = new ResponseJsonResult();
+        responseJsonResult.setStatus(200);
+        responseJsonResult.setMsg("success");
+        return responseJsonResult;
+    }
+
+```
+
+#### 测试
+
+* 添加测试
+
+[![分类的增删改查3.png](https://i.loli.net/2019/07/01/5d19e9c85692383815.png)](https://i.loli.net/2019/07/01/5d19e9c85692383815.png)
+
+
+* 测试结果：
+
+[![分类的增删改查_添加测试.png](https://i.loli.net/2019/07/01/5d19e9c85663b85560.png)](https://i.loli.net/2019/07/01/5d19e9c85663b85560.png)
+
+
+* 修改测试
+
+[![分类的增删改查_修改测试.png](https://i.loli.net/2019/07/01/5d19ec0b69a4697435.png)](https://i.loli.net/2019/07/01/5d19ec0b69a4697435.png)
+
+* 删除测试
+
+[![分类的增删改查_删除测试.png](https://i.loli.net/2019/07/01/5d19eb9a9baf397985.png)](https://i.loli.net/2019/07/01/5d19eb9a9baf397985.png)
+
+
+#### 过程中问题
+
+删除方法中，需要对删除对象是否是父分类进行判断，因为父分类下面很可能有子分类
+
+#### 190701 实现对分类列表的增删改查
