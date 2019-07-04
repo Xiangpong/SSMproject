@@ -4,6 +4,7 @@ public class EasyUITree {
     private int id;
     private String text;
     private String state;
+    private String attributes;
 
     public int getId() {
         return id;
@@ -27,5 +28,13 @@ public class EasyUITree {
 
     public void setState(String state) {
         this.state = state;
+    }
+
+    public String getAttributes() {
+        return attributes;
+    }
+
+    public void setAttributes(String attributes) {
+        this.attributes = attributes;
     }
 }

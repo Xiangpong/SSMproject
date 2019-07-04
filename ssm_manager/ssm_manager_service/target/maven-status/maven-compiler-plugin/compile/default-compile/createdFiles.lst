@@ -1,2 +1,4 @@
+com\pong\service\impl\ProductControllerServiceImpl.class
 com\pong\service\UserService.class
 com\pong\service\impl\UserServiceImpl.class
+com\pong\service\ProductCategoryService.class

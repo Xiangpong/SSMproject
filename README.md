@@ -1035,3 +1035,177 @@ Nginx是一款轻量级HTTP方向代理服务器
 解决：在确定配置文件没有问题之后，认定为服务器防火墙没有关闭，关闭后实现访问
 
 ### 190703 完成fastDFS服务器部署
+
+---
+
+## SpringMVC整合fastDFS服务器
+
+### FastDFS-Java-Client
+
+项目Github：https://github.com/happyfish100/fastdfs-client-java
+
+下载该项目，将其中Maven依赖的jar包导入本地Maven仓库
+
+```xml
+<dependency>
+    <groupId>org.csource</groupId>
+    <artifactId>fastdfs-client-java</artifactId>
+    <version>1.27-SNAPSHOT</version>
+</dependency>
+```
+
+* 在SSM项目的parent模块的pom.xml中导入上述依赖
+* 在manager模块的web包的pom.xml同样导入该依赖
+
+### fds_client.conf
+
+* 在web包的resource创建一个conf文件夹用于放置配置文件
+* 将FastDFS-Java-Client项目中fds_client.conf复制到conf文件夹
+
+```conf
+connect_timeout = 2
+network_timeout = 30
+charset = UTF-8
+http.tracker_http_port = 8080
+http.anti_steal_token = no
+http.secret_key = FastDFS1234567890
+
+tracker_server = 192.168.46.128:22122 //这里的ip换成fastDFS服务器ip
+```
+
+### 添加通用依赖
+
+在parent模块的pom.xml和web的pom.xml导入
+
+```xml
+<dependency>
+    <groupId>commons-fileupload</groupId>
+    <artifactId>commons-fileupload</artifactId>
+    <version>1.3.1</version>
+</dependency>
+
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.2</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.1</version>
+</dependency>
+```
+### 创建fsatDFS客户端
+
+* 在web包java文件夹中创建一个fastDFS文件夹并创建fastDFSClient.java
+
+```java
+private static StorageClient1 storageClient1 = null;
+
+    static {
+        try {
+            // 获取配置文件
+            String classPath = new File(fastDFSClient.class.getResource("/").getFile()).getCanonicalPath();
+            String CONF_FILENAME = classPath + File.separator + "conf" + File.separator + "fdfs_client.conf";
+            ClientGlobal.init(CONF_FILENAME);
+            // 获取触发器
+            TrackerClient trackerClient = new TrackerClient(ClientGlobal.g_tracker_group);
+            TrackerServer trackerServer = trackerClient.getConnection();
+            // 获取存储服务器
+            StorageServer storageServer = trackerClient.getStoreStorage(trackerServer);
+            storageClient1 = new StorageClient1(trackerServer, storageServer);
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+
+    /**
+     * @param fis      文件输入流
+     * @param fileName 文件名称
+     * @return
+     */
+    public static String uploadFile(InputStream fis, String fileName) {
+        try {
+            NameValuePair[] meta_list = null;
+
+            //将输入流写入file_buff数组
+            byte[] file_buff = null;
+            if (fis != null) {
+                int len = fis.available();
+                file_buff = new byte[len];
+                fis.read(file_buff);
+            }
+
+            String fileid = storageClient1.upload_file1(file_buff, getFileExt(fileName), meta_list);
+            return fileid;
+        } catch (Exception ex) {
+            return null;
+        } finally {
+            if (fis != null) {
+                try {
+                    fis.close();
+                } catch (IOException e) {
+                    System.out.println(e);
+                }
+            }
+        }
+    }
+
+
+    private static String getFileExt(String fileName) {
+        if (StringUtils.isBlank(fileName) || !fileName.contains(".")) {
+            return "";
+        } else {
+            return fileName.substring(fileName.lastIndexOf(".") + 1);
+        }
+    }
+```
+* 在springmvc.xml中添加：
+
+```xml
+<!-- 文件上传 -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver" p:defaultEncoding="UTF-8" >
+    </bean>
+```
+
+* 在Controller文件夹创建FileController.java
+
+```java
+@RequestMapping(value = "uploadfile",method  = RequestMethod.POST)
+    @ResponseBody
+    public String fileupload(@RequestParam MultipartFile uploadfile) throws IOException {
+
+        String fileId =  fastDFSClient.uploadFile(uploadfile.getInputStream(), uploadfile.getOriginalFilename());
+        if (fileId != null)
+        System.out.println("上传成功");
+
+       return fileId + " +++ " +uploadfile.getOriginalFilename();
+    }
+```
+
+### Postman
+
+>Postman是chrome的一款插件,用于做接口请求测试,无论是前端,后台还是测试人员,都可以用postman来测试接口,用起来非常方便
+
+用Postman上传一张照片测试fastDFS是否配置成功
+
+[![postman测试.png](https://i.loli.net/2019/07/04/5d1d93d19100463912.png)](https://i.loli.net/2019/07/04/5d1d93d19100463912.png)
+
+### 测试结果
+
+成功返回fileId和路径
+
+[![postman测试2.png](https://i.loli.net/2019/07/04/5d1d93d1ee94434227.png)](https://i.loli.net/2019/07/04/5d1d93d1ee94434227.png)
+
+并在外部浏览器成功浏览
+
+[![postman测试3.png](https://i.loli.net/2019/07/04/5d1d93d247baf17436.png)](https://i.loli.net/2019/07/04/5d1d93d247baf17436.png)
+
+### 过程中问题
+
+要记得把fastDFS服务器的服务开启
+
+### 190704完成SpringMVC对fastDFS的整合
+
+

@@ -5,11 +5,11 @@ public class ProductCategory {
 
     private String name;
 
-    private Short sortoder;
+    private Short sortoder = 999;
 
-    private Byte status;
+    private Byte status=0;
 
-    private Short parentId;
+    private Short parentId = 0;
 
     public Short getId() {
         return id;

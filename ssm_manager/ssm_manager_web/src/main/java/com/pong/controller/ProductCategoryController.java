@@ -1,6 +1,8 @@
 package com.pong.controller;
 
 import EasyUIPojo.EasyUITree;
+import EasyUIPojo.ResponseJsonResult;
+import com.pong.pojo.ProductCategoryExample;
 import com.pong.service.ProductCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -28,4 +30,34 @@ public class ProductCategoryController {
         List<EasyUITree> easyUITrees = productCategoryService.findProductCategoryListByParentId(parentId);
         return easyUITrees;
     }
+
+
+    /*
+    添加分类
+     */
+
+
+    @RequestMapping("/add")
+    @ResponseBody
+    public ResponseJsonResult addCategory(Short parentId,String name){
+        ResponseJsonResult responseJsonResult = productCategoryService.addCategory(parentId,name);
+        return responseJsonResult;
+    }
+
+    @RequestMapping("/update")
+    @ResponseBody
+    public ResponseJsonResult updateCategory(Short id,String name){
+        ResponseJsonResult responseJsonResult = productCategoryService.updateCategory(id,name);
+        return responseJsonResult;
+    }
+
+    @RequestMapping("delete")
+    @ResponseBody
+    public ResponseJsonResult deleteCategory(Short parentId,Short id) {
+
+        ResponseJsonResult responseJsonResult = productCategoryService.deleteCategory(parentId,id);
+        return responseJsonResult;
+
+    }
+
 }

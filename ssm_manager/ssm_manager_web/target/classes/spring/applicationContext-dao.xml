@@ -18,7 +18,6 @@
 
 
         <property name="filters" value="stat" />
-
         <property name="maxActive" value="20" />
         <property name="initialSize" value="1" />
         <property name="maxWait" value="60000" />
