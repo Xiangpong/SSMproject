@@ -1208,4 +1208,109 @@ private static StorageClient1 storageClient1 = null;
 
 ### 190704完成SpringMVC对fastDFS的整合
 
+---
+
+## 在SpringMVC中整合FreeMarker 
+
+### 什么是FreeMarker
+
+通过阅读FreeMarker的官方手册，可以得知:
+1. FreeMarker是一款模版引擎
+2. 它可以基于模版和可变数据来生成输出文本
+3. 输出的文本可以是HTML、电子邮件、配置文件、源代码等
+4. 它是一个Java类库
+
+基本原理如图所示：
+
+[![freemarker.png](https://i.loli.net/2019/07/10/5d25c0b66bc3631831.png)](https://i.loli.net/2019/07/10/5d25c0b66bc3631831.png)
+
+### 引入FreeMarker
+
+#### 在parent模块的pom.xml中导入依赖
+
+```xml
+<dependency>
+    <groupId>org.freemarker</groupId>
+    <artifactId>freemarker</artifactId>
+    <version>2.3.28</version>
+</dependency>
+
+<dependency>
+     <groupId>org.springframework</groupId>
+     <artifactId>spring-context-support</artifactId>
+     <version>${spring.version}</version>
+</dependency>
+```
+* 在web包的pom中也导入上述依赖
+
+### 配置springmvc.xml
+
+```xml
+<!--freemarker的配置在前，当当请求发现/WEB-INF/ftl/没有的时候，就会去/WEB-INF/jsp/查找-->
+   <bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+       <property name="templateLoaderPath" value="/WEB-INF/ftl/"/>
+   </bean>
+   <bean id="viewResolver" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+       <property name="prefix" value=""/>
+       <property name="suffix" value=".ftl"/>
+       <property name="contentType" value="text/html; charset=UTF-8"/>
+   </bean>
+ ```
+ ### 测试整合
+ 
+ #### 编写一个Controller
+ 
+ * 位于web包的controller文件夹创建一个FreeMarkerTest
+ 
+ ```java
+ @Controller
+ public class FreemarkerTest {
+ 
+     @RequestMapping("/hello")
+     public String sayHello(Model model){
+         model.addAttribute("name","pong");
+         return "hello";
+     }
+ 
+     @RequestMapping("/hi")
+     public String sayHi(Model model){
+         model.addAttribute("name","pong");
+         return "hi";
+     }
+```
+#### 创建hello.ftl 和 hi.jsp 文件用于测试
+
+
+* 在web包webapp文件夹创建一个ftl子文件夹，并创建hello.ftl文件
+```ftl
+<h1>Hello ${name}</h1>
+```
+* 在web包的jsp文件夹创建hi.jsp文件
+```jsp
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+    <h1>Hi ${name}</h1>
+</body>
+</html>
+```
+#### 测试结果
+
+[![freemarker1.png](https://i.loli.net/2019/07/10/5d25c0b65d00512916.png)](https://i.loli.net/2019/07/10/5d25c0b65d00512916.png)
+
+[![freemarker2.png](https://i.loli.net/2019/07/10/5d25c0b65d29236496.png)](https://i.loli.net/2019/07/10/5d25c0b65d29236496.png)
+
+#### 190710完成了SpringMVC对FreeMarker的整合
+
+
+
+
+
+
+
+
+
+
 

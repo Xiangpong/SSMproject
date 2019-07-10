@@ -1,7 +1,302 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aed93350-102a-4c3b-ae6f-5e331fa01316" name="Default Changelist" comment="" />
+    <list default="true" id="aed93350-102a-4c3b-ae6f-5e331fa01316" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_common/ssm_common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/ssm_manager_mapper.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_pojo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_service/ssm_manager_service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/angular.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/angular.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/accordion.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/calendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/combo.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/combo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/combobox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/combobox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/datagrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/datagrid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/datalist.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/datalist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/datebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/datebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/dialog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/easyui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/filebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/filebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/linkbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/linkbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/menubutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/menubutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/messager.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/messager.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/panel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/passwordbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/passwordbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/progressbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/progressbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/propertygrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/propertygrid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/radiobutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/radiobutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/searchbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/searchbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/sidemenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/sidemenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/spinner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/splitbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/splitbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/switchbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/switchbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/tagbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/tagbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/textbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/textbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/tooltip.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/tooltip.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/tree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/validatebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/validatebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/window.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/black/window.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/accordion.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/calendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/combo.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/combo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/combobox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/combobox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/datagrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/datagrid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/datalist.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/datalist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/datebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/datebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/dialog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/easyui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/filebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/filebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/linkbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/linkbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/menubutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/menubutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/messager.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/messager.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/panel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/passwordbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/passwordbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/progressbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/progressbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/propertygrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/propertygrid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/radiobutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/radiobutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/searchbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/searchbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/sidemenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/sidemenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/spinner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/splitbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/splitbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/switchbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/switchbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/tagbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/tagbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/textbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/textbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/tooltip.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/tooltip.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/tree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/validatebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/validatebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/window.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/bootstrap/window.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/accordion.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/calendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/combo.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/combo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/combobox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/combobox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/datagrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/datagrid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/datalist.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/datalist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/datebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/datebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/dialog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/easyui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/filebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/filebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/linkbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/linkbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/menubutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/menubutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/messager.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/messager.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/panel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/passwordbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/passwordbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/progressbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/progressbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/propertygrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/propertygrid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/radiobutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/radiobutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/searchbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/searchbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/sidemenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/sidemenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/spinner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/splitbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/splitbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/switchbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/switchbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/tagbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/tagbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/textbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/textbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/tooltip.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/tooltip.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/tree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/validatebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/validatebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/window.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/window.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/accordion.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/calendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/combo.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/combo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/combobox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/combobox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/datagrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/datagrid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/datalist.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/datalist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/datebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/datebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/dialog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/easyui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/filebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/filebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/linkbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/linkbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/menubutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/menubutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/messager.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/messager.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/panel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/passwordbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/passwordbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/progressbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/progressbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/propertygrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/propertygrid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/radiobutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/radiobutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/searchbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/searchbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/sidemenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/sidemenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/spinner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/splitbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/splitbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/switchbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/switchbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/tagbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/tagbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/textbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/textbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/tooltip.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/tooltip.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/tree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/validatebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/validatebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/window.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/gray/window.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/accordion.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/calendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/combo.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/combo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/combobox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/combobox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/datagrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/datagrid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/datalist.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/datalist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/datebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/datebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/dialog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/easyui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/filebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/filebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/linkbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/linkbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/menubutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/menubutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/messager.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/messager.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/panel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/passwordbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/passwordbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/progressbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/progressbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/propertygrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/propertygrid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/radiobutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/radiobutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/searchbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/searchbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/sidemenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/sidemenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/spinner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/splitbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/splitbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/switchbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/switchbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/tagbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/tagbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/textbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/textbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/tooltip.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/tooltip.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/tree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/validatebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/validatebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/window.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material-teal/window.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/accordion.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/calendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/combo.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/combo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/combobox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/combobox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/datagrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/datagrid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/datalist.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/datalist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/datebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/datebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/dialog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/easyui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/filebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/filebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/linkbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/linkbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/menubutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/menubutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/messager.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/messager.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/panel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/passwordbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/passwordbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/progressbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/progressbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/propertygrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/propertygrid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/radiobutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/radiobutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/searchbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/searchbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/sidemenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/sidemenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/spinner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/splitbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/splitbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/switchbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/switchbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/tagbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/tagbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/textbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/textbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/tooltip.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/tooltip.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/tree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/validatebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/validatebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/window.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/material/window.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/accordion.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/calendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/combo.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/combo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/combobox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/combobox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/datagrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/datagrid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/datalist.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/datalist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/datebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/datebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/dialog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/easyui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/filebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/filebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/linkbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/linkbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/menubutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/menubutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/messager.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/messager.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/panel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/passwordbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/passwordbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/progressbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/progressbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/propertygrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/propertygrid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/radiobutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/radiobutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/searchbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/searchbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/sidemenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/sidemenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/spinner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/splitbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/splitbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/switchbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/switchbutton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/tagbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/tagbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/textbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/textbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/tooltip.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/tooltip.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/tree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/validatebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/validatebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/window.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/metro/window.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/react.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/react.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/vue.css" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/vue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/js/easyloader.js" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/js/easyloader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/js/jquery.easyui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/js/jquery.easyui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/js/jquery.easyui.mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/js/jquery.easyui.mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/classes/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/conf/logging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/conf/tomcat-users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/conf/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/conf/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/logs/access_log.2019-06-20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/logs/access_log.2019-06-24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/logs/access_log.2019-06-26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/logs/access_log.2019-07-01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/logs/access_log.2019-07-04" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_rest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_search/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_sso/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_sso/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ssm_parent/target/" />
@@ -38,91 +333,61 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/mybatis/sqlMapConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/applicationContext-dao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="12" column="61" lean-forward="true" selection-end-line="16" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/applicationContext-service.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="111" selection-end-line="12" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/applicationContext-trans.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="20" column="62" lean-forward="true" selection-end-line="32" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_manager/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="48" />
+            <state relative-caret-position="71">
+              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="37" selection-start-line="37" selection-end-line="56" selection-end-column="10" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="111">
+                <caret line="1301" lean-forward="true" selection-start-line="1301" selection-end-line="1301" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/properties/db.properties">
+        <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/FreemarkerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" selection-start-line="7" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/ftl/hello.ftl">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="3" />
+              <caret selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_parent/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/hi.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="97" column="33" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="33" />
+            <state relative-caret-position="164">
+              <caret line="8" selection-start-line="8" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -132,27 +397,72 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Class" />
         <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mapper namespace</find>
+      <find>insert</find>
+      <find>onSelect</find>
+      <find>jackson</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_pojo/pom.xml" />
-        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/pom.xml" />
         <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/mybatis/sqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_service/pom.xml" />
-        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/index.jsp" />
         <option value="$PROJECT_DIR$/ssm_manager/pom.xml" />
-        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/applicationContext-trans.xml" />
-        <option value="$PROJECT_DIR$/ssm_parent/pom.xml" />
-        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/pom.xml" />
         <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/properties/db.properties" />
         <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_service/src/main/java/com/pong/service/UserService.java" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/src/main/java/com/pong/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/src/main/java/com/pong/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_service/src/main/java/com/pong/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/product_list.jsp" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/ssm_common/src/main/java/EasyUIPojo/RespoonseRequest.java" />
+        <option value="$PROJECT_DIR$/ssm_common/src/main/java/EasyUIPojo/ResponseJsonRequest.java" />
+        <option value="$PROJECT_DIR$/ssm_common/src/main/java/EasyUIPojo/ResponseJsonResult.java" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/src/main/java/com/pong/mapper/ProductCategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_pojo/src/main/java/com/pong/pojo/ProductCategory.java" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/src/main/java/com/pong/mapper/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/ssm_common/src/main/java/EasyUIPojo/EasyUITree.java" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_service/src/main/java/com/pong/service/ProductCategoryService.java" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/ProductCategoryController.java" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/product_category_list.jsp" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_service/src/main/java/com/pong/service/impl/ProductControllerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/conf/fdfs_client.conf" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/fastDFS/fastDFSClient.java" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/ueditorTest.jsp" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/lal.jsp" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/ueditor/index.html" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/ueditorDemo.jsp" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/FreemarkerTest.java" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/ftl/hello.ftl" />
+        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/hi.jsp" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -170,15 +480,6 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssm_manager_mapper" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssm_manager_mapper" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="ssm_manager_service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -194,29 +495,23 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="ssm_manager_web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssm_manager_web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.pong:ssm_manager_service:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-68" />
-    <option name="y" value="5" />
-    <option name="width" value="546" />
-    <option name="height" value="718" />
+    <option name="x" value="-99" />
+    <option name="y" value="17" />
+    <option name="width" value="697" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,50 +528,20 @@
               <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
               <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_manager_web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
               <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_manager_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
               <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_manager_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -284,37 +549,7 @@
               <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
               <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_service" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_manager_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -324,13 +559,10 @@
               <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
               <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
               <item name="ssm_manager_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pong" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
@@ -339,15 +571,9 @@
               <item name="ssm_manager_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pong" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
@@ -357,27 +583,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
@@ -387,36 +592,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_parent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561048191062" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562755289852" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47011495" />
     <property name="settings.editor.selected.configurable" value="spring" />
@@ -424,7 +616,15 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\SSMproject\ssm_manager\ssm_manager_web\src\main\webapp" />
+      <recent name="H:\SSMproject\ssm_manager\ssm_manager_web\src\main\webapp\WEB-INF\jsp" />
       <recent name="H:\SSMproject\ssm_manager\ssm_manager_web\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\SSMproject\ssm_manager\ssm_manager_web\src\main\resources\conf" />
+      <recent name="H:\SSMproject\ssm_manager\ssm_manager_pojo\src\main\java\com\pong\pojo" />
+      <recent name="H:\SSMproject\ssm_manager\ssm_manager_mapper\src\main\java\com\pong\mapper" />
+      <recent name="H:\SSMproject\ssm_manager\ssm_manager_web\src\main\webapp\WEB-INF\js" />
+      <recent name="H:\SSMproject\ssm_manager\ssm_manager_web\src\main\webapp\WEB-INF\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -486,31 +686,53 @@
       <workItem from="1561014347584" duration="1057000" />
       <workItem from="1561015836122" duration="8751000" />
       <workItem from="1561027560016" duration="6986000" />
+      <workItem from="1561343321211" duration="4255000" />
+      <workItem from="1561348964083" duration="3642000" />
+      <workItem from="1561355369244" duration="1981000" />
+      <workItem from="1561357580784" duration="2580000" />
+      <workItem from="1561425821084" duration="2322000" />
+      <workItem from="1561428360744" duration="8019000" />
+      <workItem from="1561511046196" duration="7118000" />
+      <workItem from="1561598167085" duration="2325000" />
+      <workItem from="1561628472728" duration="5723000" />
+      <workItem from="1561690986890" duration="1580000" />
+      <workItem from="1561950085770" duration="15758000" />
+      <workItem from="1562208219209" duration="517000" />
+      <workItem from="1562208800405" duration="5166000" />
+      <workItem from="1562317188026" duration="374000" />
+      <workItem from="1562317650855" duration="1302000" />
+      <workItem from="1562319914148" duration="1095000" />
+      <workItem from="1562322850208" duration="300000" />
+      <workItem from="1562323210132" duration="194000" />
+      <workItem from="1562323479915" duration="1719000" />
+      <workItem from="1562750743111" duration="1090000" />
+      <workItem from="1562752145226" duration="2903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25810000" />
+    <option name="totallyTimeSpent" value="95773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49671054" visible="true" weight="0.27057928" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49671054" visible="true" weight="0.14557926" />
       <window_info id="Structure" order="1" sideWeight="0.50328946" side_tool="true" weight="0.25838414" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.50328946" side_tool="true" weight="0.21189025" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21546052" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2740864" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33552632" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35855263" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -521,7 +743,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.24009146" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.28506097" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.3292683" />
@@ -529,18 +751,18 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49671054" visible="true" weight="0.2629573" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49671054" weight="0.4832536" />
       <window_info id="Structure" order="1" sideWeight="0.50328946" side_tool="true" weight="0.25838414" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.50328946" side_tool="true" weight="0.21189025" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.9506579" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25822368" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33552632" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -555,7 +777,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.06478658" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.20733653" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.3292683" />
@@ -566,136 +788,414 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ssm_manager/ssm_manager_service/src/main/java/com/pong/service/impl/ProductControllerServiceImpl.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ssm_manager/ssm_manager_service/src/main/java/com/pong/service/impl/ProductControllerServiceImpl.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ssm_manager/ssm_manager_service/src/main/java/com/pong/service/impl/ProductControllerServiceImpl.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/css/themes/default/easyui.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/js/easyloader.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_pojo/src/main/java/com/pong/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm_sso/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_redis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_search/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_rest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_pojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1431">
-          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar!/org/springframework/beans/factory/xml/spring-util.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/mybatis/sqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="61" lean-forward="true" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="97" column="33" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/properties/db.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" />
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/applicationContext-service.xml">
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/src/main/java/com/pong/mapper/ProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/src/main/java/com/pong/mapper/ProductMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/IndexController.java" />
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="7" column="111" selection-end-line="12" selection-end-column="8" />
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/applicationContext-trans.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.1.3.RELEASE/spring-aop-4.1.3.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="62" lean-forward="true" selection-end-line="32" selection-end-column="8" />
+        <state relative-caret-position="1917">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.1.3.RELEASE/spring-aop-4.1.3.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#2517#2518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.1.3.RELEASE/spring-core-4.1.3.RELEASE.jar!/org/springframework/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4833">
+          <caret line="205" selection-start-line="205" selection-end-line="205" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="19" column="24" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/src/main/java/com/pong/mapper/ProductCategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="100" column="11" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_pojo/src/main/java/com/pong/pojo/ProductExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/js/jquery.easyui.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/js/jquery.easyui.mobile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/src/main/java/com/pong/mapper/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_common/src/main/java/EasyUIPojo/EasyUITree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_pojo/src/main/java/com/pong/pojo/ProductCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/src/main/java/com/pong/mapper/ProductCategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="29" column="51" lean-forward="true" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_pojo/src/main/java/com/pong/pojo/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_service/src/main/java/com/pong/service/impl/ProductControllerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1863">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_common/src/main/java/EasyUIPojo/ResponseJsonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="42" column="5" selection-start-line="7" selection-start-column="3" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_service/src/main/java/com/pong/service/ProductCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="16" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_service/src/main/java/com/pong/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_pojo/src/main/java/com/pong/pojo/ProductCategoryExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/fastDFS/fastDFSClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="67" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="25" column="5" selection-start-line="16" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/product_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/ProductCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/conf/fdfs_client.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/product_category_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/lal.jsp" />
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/ueditor/ueditor.all.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm_manager/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="48" />
+        <state relative-caret-position="494">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4968">
+          <caret line="184" column="41" selection-start-line="184" selection-start-column="41" selection-end-line="184" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/ueditor/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4455">
+          <caret line="165" column="30" selection-start-line="3" selection-end-line="174" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="37" selection-start-line="37" selection-end-line="56" selection-end-column="10" />
+        <state relative-caret-position="1053">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/ueditorDemo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="177" column="17" selection-start-line="177" selection-start-column="17" selection-end-line="177" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/FreemarkerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="61" column="59" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/hi.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="8" selection-start-line="8" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/ftl/hello.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="111">
+            <caret line="1301" lean-forward="true" selection-start-line="1301" selection-end-line="1301" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -709,7 +1209,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.47011495" />
                 <option value="0.5" />
               </list>
             </option>
@@ -718,11 +1218,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Web (ssm_manager_web)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.47011495" />
               </list>
             </option>
           </splitter-proportions>
@@ -734,7 +1234,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.47011495" />
               </list>
             </option>
           </splitter-proportions>
@@ -754,7 +1254,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ssm_manager_mapper</last-edited>
+          <last-edited>ssm_manager</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

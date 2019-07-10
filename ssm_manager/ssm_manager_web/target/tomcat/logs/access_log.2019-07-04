@@ -1,3 +1,0 @@
-0:0:0:0:0:0:0:1 - - [04/Jul/2019:11:43:24 +0800] "POST /uploadfile HTTP/1.1" 200 14 http-bio-8080-exec-2 7379
-0:0:0:0:0:0:0:1 - - [04/Jul/2019:11:46:55 +0800] "POST /uploadfile HTTP/1.1" 200 61 http-bio-8080-exec-5 114
-0:0:0:0:0:0:0:1 - - [04/Jul/2019:13:46:23 +0800] "POST /uploadfile HTTP/1.1" 200 64 http-bio-8080-exec-8 354
