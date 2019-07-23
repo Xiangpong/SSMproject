@@ -1304,6 +1304,125 @@ private static StorageClient1 storageClient1 = null;
 
 #### 190710完成了SpringMVC对FreeMarker的整合
 
+---
+
+## 商品添加界面搭建
+
+### 前端实现
+
+#### 使用到的easyUI主要组件：
+* Form 表单
+* Textbox 文本框
+* Combobox 组合框
+* Numberbox 数字框
+* Linkbotton 链接按钮
+
+#### 使用Ueditor富文本编辑器
+
+#### 基本布局
+
+图
+
+### 商品分类数据交互
+
+实现前端商品分类选择组合后端数据实现
+
+#### 在PageController中添加方法
+
+```java
+public String requestProductAdd(HttpServletRequest request){
+        List<EasyUITree> categories = productCategoryService.findProductCategoryListByParentId((short) 0);
+        request.getSession().setAttribute("categories",categories);
+        return "product_add";
+    }
+```
+
+#### 在parent的pom依赖新的jar包
+
+```xml
+ <dependency>
+     <groupId>javax.servlet</groupId>
+     <artifactId>servlet-api</artifactId>
+     <version>${servlet-api}</version>
+     <scope>provided</scope>
+ </dependency>
+```
+在web的pom也引入上述依赖
+
+### 在商品添加页面获取分类信息
+
+```java
+<%
+   List<EasyUITree> list = (List<EasyUITree>) session.getAttribute("categories");
+%>
+
+   <tr>
+       <td>商品分类</td>
+       <td>
+           <select id="cc" class="easyui-combobox" name="dept" style="width:200px;">
+           <option value="0">请选择</option>
+           <%
+              for (int i=0;i<list.size();i++){
+              EasyUITree item = list.get(i);
+           %>
+              <option value="<%=item.getId()%>"><%=item.getText()%></option>
+           <%
+              }
+           %>
+           </select>
+
+           <p id="cbox" style="display: none"></p> //用于显示子分类
+       </td>
+   </tr>
+```
+
+### 让商品分类动态显示子分类
+
+#### 创建product_add,js 整合js方法
+
+```javascript
+initProductCategories:function(){
+        function loadSubCategory(value){
+            var $sonBox = $("#productAddForm").find('#sonBox');
+
+            if (value == 0){
+                return;
+            }else {
+                $.getJSON('product_category/list',{id:value},function (data) {
+                    var Str =  '';
+                    Str = '<select id="productCateSelectId2" class="easyui-combobox" name="productCatSelect2" style="width:200px;">';
+                    Str += '<option value="0">请选择</option>';
+
+                    $.each(data,function (idx,item) {
+                        Str += '<option value="'+item.id+'">'+item.text+'</option>';
+                    })
+
+                    Str += '</select>';
+                    $sonBox.html(Str).show()
+                })
+            }
+        }
+
+        // 监听onChange
+        $("#productAddForm").find("select[name='productCatSelect']").combobox({
+          onChange:function () {
+              var value = $("#productCateSelectId").val();
+              loadSubCategory(value);
+          }
+        });
+    },
+```
+#### 在前端页面调用
+
+### 测试结果
+
+图
+
+### 过程中问题
+* 注意命名规则
+* 注意Jquery语法
+
+
 
 
 

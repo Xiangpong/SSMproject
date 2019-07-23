@@ -39,6 +39,7 @@
         <ueditor.version>1.1.2</ueditor.version>
         <commons-codec>1.10</commons-codec>
         <freemarker>2.3.28</freemarker>
+        <servlet-api>2.5</servlet-api>
     </properties>
 
     <dependencyManagement>
@@ -184,6 +185,15 @@
                 <artifactId>spring-context-support</artifactId>
                 <version>${spring.version}</version>
             </dependency>
+
+            <!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>servlet-api</artifactId>
+                <version>${servlet-api}</version>
+                <scope>provided</scope>
+            </dependency>
+
 
         </dependencies>
     </dependencyManagement>
