@@ -22,6 +22,6 @@ public class FileController {
         if (fileId != null)
         System.out.println("上传成功");
 
-       return fileId + " +++ " +uploadfile.getOriginalFilename();
+       return fileId ;
     }
 }

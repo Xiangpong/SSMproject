@@ -18,6 +18,7 @@
     <!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
     <script type="text/javascript" charset="utf-8" src="../../ueditor/lang/zh-cn/zh-cn.js"></script>
     <script type="text/javascript" charset="utf-8" src="../../js/product_add.js"></script>
+    <script type="text/javascript" charset="utf-8" src="../../js/ajaxFileUpload.js"></script>
 
    <%
        List<EasyUITree> list = (List<EasyUITree>) session.getAttribute("categories");
@@ -67,9 +68,17 @@
 
                     <tr>
                         <td>商品主图</td>
-                        <td><a id="btn" href="#" class="easyui-linkbutton" >图片上传</a></td>
+                        <td>
+                            <input id="fileName" name="uploadfile" />
+                            <a href="#" class="easyui-linkbutton  uploadPIC" >图片上传</a></td>
                     </tr>
 
+                    <tr>
+                        <td>商品主图预览</td>
+                        <td>
+                            <img src=""  id="productIMG" width="375" height="250"/>
+                        </td>
+                    </tr>
                     <tr>
                         <td>商品描述</td>
                         <td>
@@ -86,10 +95,6 @@
 
     <script type="text/javascript">
         $(function() {
-            // 实例化编辑器
-            // 建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例
-            var ue = UE.getEditor('editor')
-
             productAdd.init();
         })
     </script></body>
