@@ -1689,9 +1689,11 @@ initPictureUpload:function(){
 #### 测试结果
 
 * 动态显示商品分类
+
 [![商品分类测试结果.png](https://i.loli.net/2019/07/25/5d395ce0bc8ea25472.png)](https://i.loli.net/2019/07/25/5d395ce0bc8ea25472.png)
 
 * 图片上传功能
+
 [![图片上传测试结果.png](https://i.loli.net/2019/07/25/5d395ce14ac1684813.png)](https://i.loli.net/2019/07/25/5d395ce14ac1684813.png)
 
 
@@ -1701,9 +1703,120 @@ initPictureUpload:function(){
 
 #### 190725 实现动态显示分类和图片上传
 
+---
+
+### 实现商品数据提交到数据库
+
+#### 前端准备
+
+利用From表单提交商品信息，需要对一个商品列表的的每一项录入内容进行赋值，这里使用‘input’标签来赋值。
+
+其中对商品分类、商品主图、商品描述这三个没有‘input’标签的内容额外创立‘input’标签赋值
+
+```jsp
+   <input type="hidden" name="categoryId" />
+   <input type="hidden" name="image" />
+   <input type="hidden" name="description" />
+```
+
+赋值手段是使用Jquery函数
 
 
+```js
+ // 对商品分类赋值
+ 
+ // 如若有二级分类
+  $("#productAddForm").find("select[name='productCatSelect2']").combobox({
+       onChange:function () {
+           var value = $("#productCateSelectId2").val();
+           if (value == 0 ) {
+               $("#productAddForm").find("input[name='categoryId']").val($('#productAddForm').find("input[name='productCateSelectId']").val());
+           }else {
+               $("#productAddForm").find("input[name='categoryId']").val(value)
+           }
+       }
+  });
 
+            
+  // 只有一级分类
+  $("#productAddForm").find("select[name='productCatSelect']").combobox({
+        onChange:function () {
+               var value = $("#productCateSelectId").val();
+               $("#productAddForm").find("input[name='categoryId']").val(value);
+               loadSubCategory(value);
+        }
+   });
+  
+```
+
+```js
+  // 对商品主图进行赋值
+   $("#productAddForm").find("input[name='image']").val($(data).find("body").text());
+
+```
+
+```js
+  // 对商品描述进行赋值
+  $("#productAddForm").find("input[name='description']").val(UE.getEditor('editor').getContent())
+  
+```
+
+其余细节不赘述...... 前端准备完毕
+
+```js
+  // 表单提交
+  $.post("/product_save",$('#productAddForm').serialize(),function(data){
+      if (data.status == 200){
+          $.messager.alert("提示","提交成功！");
+      }
+  })
+```
+
+#### 后端代码实现
+
+    因为已经通过逆向工程实现对Product实体类和增删改查工作的方法创建
+    
+    所以只要实现控制层和业务层核心函数就行了
+
+#### Controller
+
+```java
+@RequestMapping("/product_save")
+    @ResponseBody
+    public ResponseJsonResult saveProduct(Product product){
+        ResponseJsonResult responseJsonResult = productService.saveProduct(product);
+        return  responseJsonResult;
+    }
+```
+
+#### ProductService
+
+```java
+ public ResponseJsonResult saveProduct(Product product) {
+
+        product.setStatus(1);
+        productMapper.insert(product);
+
+        ResponseJsonResult responseJsonResult = new ResponseJsonResult();
+        responseJsonResult.setStatus(200);
+
+
+        return responseJsonResult;
+    }
+```
+
+#### 测试结果
+
+
+![商品列表存入数据库测试.png](https://i.loli.net/2019/08/04/KxnzXI6o5cPwJtq.png)
+
+![商品列表存入数据库测试2.png](https://i.loli.net/2019/08/04/fPyLqF1SOgsmE9N.png)
+
+![商品列表存入数据库测试3.png](https://i.loli.net/2019/08/04/3BOvng2Zb456z7e.png)
+
+![商品列表存入数据库测试4.png](https://i.loli.net/2019/08/04/xAMi82LWIEljRFt.png)
+
+#### 190804 实现商品列表存入数据库操作
 
 
 

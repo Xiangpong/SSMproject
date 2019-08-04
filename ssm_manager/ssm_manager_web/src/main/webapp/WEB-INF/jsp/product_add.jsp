@@ -1,5 +1,4 @@
-<%@ page import="EasyUIPojo.EasyUITree" %>
-<%@ page import="java.util.List" %><%--
+<%--
   Created by IntelliJ IDEA.
   User: 吴湘鹏
   Date: 2019/7/14 0014
@@ -7,6 +6,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page import="EasyUIPojo.EasyUITree" %>
+<%@ page import="java.util.List" %>
 <html>
     <head>
         <title>商品添加</title>
@@ -20,6 +21,7 @@
     <script type="text/javascript" charset="utf-8" src="../../js/product_add.js"></script>
     <script type="text/javascript" charset="utf-8" src="../../js/ajaxFileUpload.js"></script>
 
+
    <%
        List<EasyUITree> list = (List<EasyUITree>) session.getAttribute("categories");
    %>
@@ -27,10 +29,15 @@
 
     <div style="padding: 10px 10px 10px 10px">
             <form id="productAddForm" method="post">
+
+                <input type="hidden" name="categoryId" />
+                <input type="hidden" name="image" />
+                <input type="hidden" name="description" />
+
                 <table cellpadding="10px">
                     <tr>
                         <td>商品名称</td>
-                        <td><input class="easyui-textbox" data-options="required:true" style="width:800px"></td>
+                        <td><input class="easyui-textbox" name="name" data-options="required:true" style="width:800px"></td>
                     </tr>
                     <tr>
                         <td>商品分类</td>
@@ -53,17 +60,19 @@
 
                     <tr>
                         <td>商品价格</td>
-                        <td><input type="text" class="easyui-numberbox" value="100" data-options="min:1,max:9999999,precision:2,required:true " style="width: 800px"></td>
+                        <td><input type="text" class="easyui-numberbox" name="pricePreview"  data-options="min:1,max:9999999,precision:2,required:true " style="width: 800px"></td>
+                        <input type="hidden" name="price" />
                     </tr>
 
                     <tr>
                         <td>市场价格</td>
-                        <td><input type="text" class="easyui-numberbox" value="100" data-options="min:1,max:9999999,precision:2,required:true " style="width: 800px"></td>
+                        <td><input type="text" class="easyui-numberbox" name="marketPricePreview" data-options="min:1,max:9999999,precision:2,required:true " style="width: 800px"></td>
+                        <input type="hidden" name="marketPrice" />
                     </tr>
 
                     <tr>
                         <td>商品编号</td>
-                        <td><input type="text" class="easyui-numberbox" value="100" data-options="required:true " style="width: 800px"></td>
+                        <td><input type="text" class="easyui-numberbox" name="productNum" data-options="required:true " style="width: 800px"></td>
                     </tr>
 
                     <tr>
@@ -76,7 +85,7 @@
                     <tr>
                         <td>商品主图预览</td>
                         <td>
-                            <img src=""  id="productIMG" width="375" height="250"/>
+                            <img src=""  id="productIMG" width="475" height="325"/>
                         </td>
                     </tr>
                     <tr>
@@ -88,15 +97,27 @@
                 </table>
             </form>
         <div>
-            <a id="btn" href="#" class="easyui-linkbutton" >提交</a>
-            <a id="btn" href="#" class="easyui-linkbutton" >重置</a>
+            <a id="btn1" href="#" class="easyui-linkbutton" onclick="submitForm()">提交</a>
+            <a id="btn2" href="#" class="easyui-linkbutton" >重置</a>
         </div>
         </div>
+       <script type="text/javascript">
+           $(function() {
+               productAdd.init();
+           });
 
-    <script type="text/javascript">
-        $(function() {
-            productAdd.init();
-        })
-    </script></body>
 
+           function submitForm() {
+               $("#productAddForm").find("input[name='description']").val(UE.getEditor('editor').getContent())
+               $("#productAddForm").find("input[name='price']").val(eval($("#productAddForm").find("input[name='pricePreview']").val())*100);
+               $("#productAddForm").find("input[name='marketPrice']").val(eval($("#productAddForm").find("input[name='marketPricePreview']").val())*100);
+
+               $.post("/product_save",$('#productAddForm').serialize(),function(data){
+                    if (data.status == 200){
+                        $.messager.alert("提示","提交成功！");
+                    }
+               })
+           }
+       </script><img/>
+   </body>
 </html>

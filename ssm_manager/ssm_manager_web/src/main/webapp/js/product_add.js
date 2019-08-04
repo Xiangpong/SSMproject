@@ -19,6 +19,17 @@ var pa = productAdd = {
 
                     Str += '</select>';
                     $sonBox.html(Str).show()
+
+                    $("#productAddForm").find("select[name='productCatSelect2']").combobox({
+                        onChange:function () {
+                            var value = $("#productCateSelectId2").val();
+                            if (value == 0 ) {
+                                $("#productAddForm").find("input[name='categoryId']").val($('#productAddForm').find("input[name='productCateSelectId']").val());
+                            }else {
+                                $("#productAddForm").find("input[name='categoryId']").val(value)
+                            }
+                        }
+                    });
                 })
             }
         }
@@ -27,6 +38,7 @@ var pa = productAdd = {
         $("#productAddForm").find("select[name='productCatSelect']").combobox({
           onChange:function () {
               var value = $("#productCateSelectId").val();
+              $("#productAddForm").find("input[name='categoryId']").val(value);
               loadSubCategory(value);
           }
         });
@@ -48,6 +60,7 @@ var pa = productAdd = {
                 success:function (data) {
                     console.log($(data).find("body").text());
                     $('#productIMG').attr("src","http://192.168.46.128:8888/"+$(data).find("body").text());
+                    $("#productAddForm").find("input[name='image']").val($(data).find("body").text());
                 }
             
             })
