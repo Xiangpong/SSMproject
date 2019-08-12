@@ -40,6 +40,7 @@
         <commons-codec>1.10</commons-codec>
         <freemarker>2.3.28</freemarker>
         <servlet-api>2.5</servlet-api>
+        <Mybatis-PageHelper>4.1.1</Mybatis-PageHelper>
     </properties>
 
     <dependencyManagement>
@@ -194,6 +195,12 @@
                 <scope>provided</scope>
             </dependency>
 
+            <!--Mybatis 分页插件-->
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper</artifactId>
+                <version>${Mybatis-PageHelper}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>

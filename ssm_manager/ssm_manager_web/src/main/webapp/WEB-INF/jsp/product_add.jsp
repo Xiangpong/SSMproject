@@ -71,8 +71,8 @@
                     </tr>
 
                     <tr>
-                        <td>商品编号</td>
-                        <td><input type="text" class="easyui-numberbox" name="productNum" data-options="required:true " style="width: 800px"></td>
+                        <td>作者</td>
+                        <td><input type="text" class="easyui-textbox" name="productBelongs" data-options="required:true " style="width: 800px"></td>
                     </tr>
 
                     <tr>
@@ -115,6 +115,7 @@
                $.post("/product_save",$('#productAddForm').serialize(),function(data){
                     if (data.status == 200){
                         $.messager.alert("提示","提交成功！");
+                        $('#productForm').reset();
                     }
                })
            }

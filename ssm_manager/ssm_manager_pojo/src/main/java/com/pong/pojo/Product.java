@@ -17,7 +17,7 @@ public class Product {
 
     private String description;
 
-    private String productNum;
+    private String productBelongs;
 
     public Integer getId() {
         return id;
@@ -83,11 +83,11 @@ public class Product {
         this.description = description == null ? null : description.trim();
     }
 
-    public String getProductNum() {
-        return productNum;
+    public String getProductBelongs() {
+        return productBelongs;
     }
 
-    public void setProductNum(String productNum) {
-        this.productNum = productNum == null ? null : productNum.trim();
+    public void setProductBelongs(String productBelongs) {
+        this.productBelongs = productBelongs == null ? null : productBelongs.trim();
     }
 }

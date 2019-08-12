@@ -2,9 +2,8 @@ package com.pong.mapper;
 
 import com.pong.pojo.Product;
 import com.pong.pojo.ProductExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface ProductMapper {
     int countByExample(ProductExample example);
