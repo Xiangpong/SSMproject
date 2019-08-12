@@ -18,6 +18,8 @@
         <module>../ssm_sso</module>
         <module>../ssm_redis</module>
         <module>../ssm_search</module>
+        <module>../ssm_portal</module>
+        <module>../ssm_portal</module>
     </modules>
 
     <!--集中定义版本号-->

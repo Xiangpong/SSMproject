@@ -11,6 +11,7 @@
         <module name="ssm_manager_pojo" />
         <module name="ssm_manager_service" />
         <module name="ssm_manager_web" />
+        <module name="ssm_portal" />
         <module name="ssm_redis" />
         <module name="ssm_rest" />
         <module name="ssm_search" />
