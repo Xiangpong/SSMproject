@@ -2,18 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aed93350-102a-4c3b-ae6f-5e331fa01316" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ssm_portal/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/controller/FreemarkerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_portal/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_portal/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/ftl/hello.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_portal/ssm_portal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_common/src/main/java/pojo/RestCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_common/src/main/java/util/HttpClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/service/Impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/util/GsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_portal/src/main/resources/res/resource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/ftl/index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_rest/src/main/java/com/pong/rest/controller/productCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_rest/src/main/java/com/pong/rest/service/Impl/productCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_rest/src/main/java/com/pong/rest/service/productCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_rest/src/main/resources/mybatis/sqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_rest/src/main/resources/properties/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_rest/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_rest/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_rest/src/main/resources/spring/applicationContext-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_rest/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_rest/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_rest/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_common/target/ssm_common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_common/target/ssm_common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/logs/access_log.2019-08-09" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/product_005fadd_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/product_005fadd_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/product_005fcategory_005flist_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/product_005fcategory_005flist_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/product_005flist_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/product_005flist_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/ueditor/jsp/controller_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_manager/ssm_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/ueditor/jsp/controller_jsp.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ssm_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_portal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/controller/FreemarkerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/controller/FreemarkerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_portal/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_portal/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_portal/target/classes/com/pong/portal/controller/FreemarkerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_portal/target/classes/com/pong/portal/controller/FreemarkerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_portal/target/classes/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_portal/target/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_portal/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_portal/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_portal/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_portal/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_portal/target/tomcat/logs/access_log.2019-08-12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_redis/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_redis/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_redis/target/ssm_redis-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_redis/target/ssm_redis-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_rest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_rest/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_rest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_rest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_rest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_rest/target/ssm_rest-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_search/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_search/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_search/target/ssm_search-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_search/target/ssm_search-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_sso/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_sso/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_sso/target/ssm_sso-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_sso/target/ssm_sso-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,19 +105,116 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/resources/res/resource.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="55" column="33" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="33" />
+            <state relative-caret-position="81">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/jsp/index.jsp">
+        <entry file="file://$PROJECT_DIR$/ssm_rest/src/main/java/com/pong/rest/controller/productCategoryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            <state relative-caret-position="299">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_rest/src/main/java/com/pong/rest/service/Impl/productCategoryServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/service/CategoryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/service/Impl/CategoryServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="24" column="73" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#398#411#1" expanded="true" />
+                <element signature="e#454#471#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/controller/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/ftl/index.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_common/src/main/java/pojo/RestCategory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+              <folding>
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#666#667#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#909#910#0" expanded="true" />
+                <element signature="e#949#950#0" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1056#1057#0" expanded="true" />
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1197#1198#0" expanded="true" />
+                <element signature="e#1444#1445#0" expanded="true" />
+                <element signature="e#1489#1490#0" expanded="true" />
+                <element signature="e#1541#1542#0" expanded="true" />
+                <element signature="e#1593#1594#0" expanded="true" />
+                <element signature="e#1632#1633#0" expanded="true" />
+                <element signature="e#1675#1676#0" expanded="true" />
+                <element signature="e#1723#1724#0" expanded="true" />
+                <element signature="e#1771#1772#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,71 +222,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ssm_portal/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="230">
+              <caret line="94" selection-start-line="94" selection-end-line="94" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_parent/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/util/GsonUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1970">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/applicationContext-trans.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/applicationContext-service.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/springmvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="33" column="11" selection-end-line="36" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/controller/FreemarkerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/ftl/hello.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/resources/spring/springmvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="275">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,9 +249,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -159,6 +262,8 @@
       <find>onSelect</find>
       <find>jackson</find>
       <find>url</find>
+      <find>httpclient</find>
+      <find>ce</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,24 +272,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/src/main/java/com/pong/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/src/main/java/com/pong/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_service/src/main/java/com/pong/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/pom.xml" />
-        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/ssm_common/src/main/java/EasyUIPojo/RespoonseRequest.java" />
-        <option value="$PROJECT_DIR$/ssm_common/src/main/java/EasyUIPojo/ResponseJsonRequest.java" />
-        <option value="$PROJECT_DIR$/ssm_common/src/main/java/EasyUIPojo/ResponseJsonResult.java" />
-        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/src/main/java/com/pong/mapper/ProductCategoryMapper.xml" />
-        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_pojo/src/main/java/com/pong/pojo/ProductCategory.java" />
-        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/src/main/java/com/pong/mapper/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/ssm_common/src/main/java/EasyUIPojo/EasyUITree.java" />
-        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_service/src/main/java/com/pong/service/ProductCategoryService.java" />
-        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/ProductCategoryController.java" />
-        <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/product_category_list.jsp" />
         <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_service/src/main/java/com/pong/service/impl/ProductControllerServiceImpl.java" />
         <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/conf/fdfs_client.conf" />
         <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/fastDFS/fastDFSClient.java" />
@@ -202,7 +289,6 @@
         <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/js/ajaxFileUpload.js" />
         <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/FileController.java" />
         <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/js/product_add.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_service/pom.xml" />
         <option value="$PROJECT_DIR$/ssm_common/src/main/java/EasyUIPojo/EasyGrid.java" />
         <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/mybatis/sqlMapConfig.xml" />
@@ -212,12 +298,31 @@
         <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/product_add.jsp" />
         <option value="$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/product_list.jsp" />
         <option value="$PROJECT_DIR$/ssm_portal/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/ssm_portal/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/controller/FreemarkerTest.java" />
+        <option value="$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/index.jsp" />
-        <option value="$PROJECT_DIR$/ssm_portal/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_rest/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/ssm_rest/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/ssm_rest/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/ssm_rest/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/ssm_rest/src/main/java/com/pong/rest/service/productCategoryService.java" />
+        <option value="$PROJECT_DIR$/ssm_rest/src/main/java/com/pong/rest/controller/productCategoryController.java" />
+        <option value="$PROJECT_DIR$/ssm_rest/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/ssm_common/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_common/src/main/java/util/HttpClientUtil.java" />
+        <option value="$PROJECT_DIR$/ssm_portal/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/service/CategoryService.java" />
         <option value="$PROJECT_DIR$/ssm_parent/pom.xml" />
-        <option value="$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/controller/FreemarkerTest.java" />
+        <option value="$PROJECT_DIR$/ssm_portal/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/util/GsonUtil.java" />
+        <option value="$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/service/Impl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ssm_portal/src/main/resources/res/resource.properties" />
+        <option value="$PROJECT_DIR$/ssm_common/src/main/java/pojo/RestCategory.java" />
+        <option value="$PROJECT_DIR$/ssm_rest/src/main/java/com/pong/rest/service/Impl/productCategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/ftl/index.ftl" />
       </list>
     </option>
   </component>
@@ -241,20 +346,6 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssm_common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssm_common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssm_common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="ssm_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -264,17 +355,7 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssm_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="ssm_portal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssm_portal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -284,10 +365,10 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="582" />
-    <option name="y" value="10" />
+    <option name="x" value="816" />
+    <option name="y" value="16" />
     <option name="width" value="697" />
-    <option name="height" value="745" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -297,6 +378,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,34 +390,25 @@
             <path>
               <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -342,32 +416,11 @@
             <path>
               <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pong" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pong" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_manager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
@@ -425,6 +478,53 @@
               <item name="ssm_portal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -436,19 +536,93 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="ftl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMproject" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_rest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565591170322" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565689824363" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -456,25 +630,25 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47011495" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\GitHubProject\SSMproject\ssm_portal\src\main\webapp\WEB-INF\jsp" />
-      <recent name="H:\GitHubProject\SSMproject\ssm_portal\src\main\webapp\WEB-INF" />
-      <recent name="H:\GitHubProject\SSMproject\ssm_portal\src\main\webapp" />
-      <recent name="H:\GitHubProject\SSMproject\ssm_manager\ssm_manager_mapper\src\main\java\com\pong\mapper" />
-      <recent name="H:\SSMproject\ssm_manager\ssm_manager_web\src\main\webapp" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\GitHubProject\SSMproject\ssm_rest\src\main\resources" />
+      <recent name="H:\GitHubProject\SSMproject\ssm_rest\src\main\webapp\WEB-INF" />
+      <recent name="H:\GitHubProject\SSMproject\ssm_portal\src\main\webapp\WEB-INF\ftl" />
+      <recent name="H:\SSMproject\ssm_manager\ssm_manager_web\src\main\resources\conf" />
+      <recent name="H:\SSMproject\ssm_manager\ssm_manager_pojo\src\main\java\com\pong\pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pong.portal.controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\GitHubProject\SSMproject\ssm_portal\src\main\webapp\WEB-INF\ftl" />
-      <recent name="H:\SSMproject\ssm_manager\ssm_manager_web\src\main\resources\conf" />
-      <recent name="H:\SSMproject\ssm_manager\ssm_manager_pojo\src\main\java\com\pong\pojo" />
-      <recent name="H:\SSMproject\ssm_manager\ssm_manager_mapper\src\main\java\com\pong\mapper" />
-      <recent name="H:\SSMproject\ssm_manager\ssm_manager_web\src\main\webapp\WEB-INF\js" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\GitHubProject\SSMproject\ssm_portal\src\main\webapp\WEB-INF" />
+      <recent name="H:\GitHubProject\SSMproject\ssm_portal\src\main\webapp\WEB-INF\jsp" />
+      <recent name="H:\GitHubProject\SSMproject\ssm_portal\src\main\webapp" />
+      <recent name="H:\GitHubProject\SSMproject\ssm_manager\ssm_manager_mapper\src\main\java\com\pong\mapper" />
+      <recent name="H:\SSMproject\ssm_manager\ssm_manager_web\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -516,6 +690,32 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="rest" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/ssm_rest" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="ssm_manager [clean,tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -545,6 +745,7 @@
     <list>
       <item itemvalue="Maven.ssm_manager [clean,tomcat7:run]" />
       <item itemvalue="Maven.portal" />
+      <item itemvalue="Maven.rest" />
     </list>
   </component>
   <component name="SpringGeneralSettings">
@@ -594,12 +795,14 @@
       <workItem from="1564897996822" duration="8410000" />
       <workItem from="1565155870535" duration="18885000" />
       <workItem from="1565247377640" duration="4743000" />
-      <workItem from="1565588363150" duration="3235000" />
+      <workItem from="1565588363150" duration="7517000" />
+      <workItem from="1565676398689" duration="2127000" />
+      <workItem from="1565678583956" duration="9992000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151481000" />
+    <option name="totallyTimeSpent" value="167882000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -612,8 +815,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49671054" visible="true" weight="0.27452415" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49671054" visible="true" weight="0.21449487" />
       <window_info id="Structure" order="1" sideWeight="0.50328946" side_tool="true" weight="0.25838414" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -621,10 +825,10 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" sideWeight="0.50328946" side_tool="true" weight="0.21189025" />
-      <window_info anchor="bottom" id="Thumbnails" weight="0.3290938" />
+      <window_info anchor="bottom" id="Duplicate detector" weight="0.86963433" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29570746" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.9125596" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.17965023" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -637,6 +841,7 @@
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32894737" />
+      <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3290938" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -702,205 +907,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/ueditor/ueditor.all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/ueditor/ueditor.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/js/easyloader.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/csource/fastdfs-client-java/1.27-SNAPSHOT/fastdfs-client-java-1.27-SNAPSHOT.jar!/org/csource/common/NameValuePair.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/conf/fdfs_client.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/fastDFS/fastDFSClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1378">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/js/ajaxFileUpload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="20" selection-end-line="236" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_service/src/main/java/com/pong/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/js/product_add.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="224">
-            <caret line="1802" selection-start-line="1802" selection-end-line="1802" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_common/src/main/java/EasyUIPojo/ResponseJsonResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="42" column="5" selection-start-line="7" selection-start-column="3" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_common/src/main/java/EasyUIPojo/EasyGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_common/src/main/java/EasyUIPojo/EasyUITree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-          <folding>
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_pojo/src/main/java/com/pong/pojo/ProductCategoryExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#264#265#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/hi.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" selection-start-line="8" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_service/src/main/java/com/pong/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_mapper/src/main/java/com/pong/mapper/ProductCategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/PageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="36" column="5" selection-start-line="32" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_service/src/main/java/com/pong/service/ProductCategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.1.3.RELEASE/spring-aop-4.1.3.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -1000,9 +1006,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_portal/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_portal/pom.xml" />
     <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/jsp/product_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
@@ -1020,13 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="57" column="22" selection-start-line="6" selection-start-column="4" selection-end-line="57" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/java/com/pong/controller/FreemarkerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1034,55 +1031,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/ftl/hello.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="55" column="33" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_portal/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1970">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1096,21 +1044,289 @@
     <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/applicationContext-service.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/resources/spring/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="33" column="11" selection-end-line="36" selection-end-column="8" />
+        <state relative-caret-position="405">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/ftl/hello.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-997">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/controller/FreemarkerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="29">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_rest/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_rest/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_rest/src/main/java/com/pong/rest/service/productCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_rest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2301">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_rest/src/main/resources/mybatis/sqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_rest/src/main/resources/properties/db.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_rest/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1181" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_rest/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_rest/src/main/resources/spring/applicationContext-trans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-736" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_rest/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="112">
+            <caret line="1822" column="34" selection-start-line="1822" selection-start-column="34" selection-end-line="1822" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_common/src/main/java/EasyUIPojo/ResponseJsonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_common/src/main/java/util/HttpClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1134">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <element signature="e#3162#3178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="226" selection-start-line="226" selection-end-line="226" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_portal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/util/GsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/service/Impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" column="73" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#398#411#1" expanded="true" />
+            <element signature="e#454#471#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/java/com/pong/portal/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/resources/res/resource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_rest/src/main/java/com/pong/rest/controller/productCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_rest/src/main/java/com/pong/rest/service/Impl/productCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_common/src/main/java/pojo/RestCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+            <element signature="e#1489#1490#0" expanded="true" />
+            <element signature="e#1541#1542#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+            <element signature="e#1723#1724#0" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_portal/src/main/webapp/WEB-INF/ftl/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1169,7 +1385,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ssm_portal</last-edited>
+          <last-edited>ssm_rest</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

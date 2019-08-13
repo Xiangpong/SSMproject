@@ -1,3 +1,7 @@
 EasyUIPojo\ResponseJsonResult.class
+util\HttpClientUtil.class
+pojo\RestCategory$CategoriesBean.class
 EasyUIPojo\EasyGrid.class
 EasyUIPojo\EasyUITree.class
+pojo\RestCategory.class
+pojo\RestCategory$CategoriesBean$SubCategoriesBean.class

@@ -1818,6 +1818,9 @@ initPictureUpload:function(){
 
 #### 190804 实现商品列表存入数据库操作
 
+### 使用SSM搭建rest服务系统提供数据
+
+### httpClient +freeMaker 实现门户分类展示
 
 
 

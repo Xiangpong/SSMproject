@@ -19,10 +19,4 @@ public class FreemarkerTest {
         model.addAttribute("name","pong");
         return "hi";
     }
-
-    @RequestMapping("/")
-    public String toIndex(Model model){
-
-        return "index";
-    }
 }

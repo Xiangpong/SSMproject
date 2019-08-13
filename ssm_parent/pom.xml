@@ -19,7 +19,6 @@
         <module>../ssm_redis</module>
         <module>../ssm_search</module>
         <module>../ssm_portal</module>
-        <module>../ssm_portal</module>
     </modules>
 
     <!--集中定义版本号-->
@@ -165,6 +164,14 @@
                 <version>${commons-codec}</version>
             </dependency>
 
+            <!-- https://mvnrepository.com/artifact/commons-net/commons-net -->
+            <dependency>
+                <groupId>commons-net</groupId>
+                <artifactId>commons-net</artifactId>
+                <version>3.6</version>
+            </dependency>
+
+
             <dependency>
                 <groupId>com.json</groupId>
                 <artifactId>json</artifactId>
@@ -202,6 +209,20 @@
                 <groupId>com.github.pagehelper</groupId>
                 <artifactId>pagehelper</artifactId>
                 <version>${Mybatis-PageHelper}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>4.5.9</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+            <dependency>
+                <groupId>com.google.code.gson</groupId>
+                <artifactId>gson</artifactId>
+                <version>2.8.5</version>
             </dependency>
 
         </dependencies>

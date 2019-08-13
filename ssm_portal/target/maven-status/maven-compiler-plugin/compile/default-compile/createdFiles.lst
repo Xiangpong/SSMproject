@@ -1,1 +1,5 @@
+com\pong\portal\service\Impl\CategoryServiceImpl.class
+com\pong\portal\controller\IndexController.class
 com\pong\portal\controller\FreemarkerTest.class
+com\pong\portal\service\CategoryService.class
+com\pong\portal\util\GsonUtil.class

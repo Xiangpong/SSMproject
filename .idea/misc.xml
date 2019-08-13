@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/ssm_manager/ssm_manager_web" />
     <file type="web" url="file://$PROJECT_DIR$/ssm_portal" />
+    <file type="web" url="file://$PROJECT_DIR$/ssm_rest" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="JSX" />
