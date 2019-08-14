@@ -4,4 +4,6 @@ pojo\RestCategory$CategoriesBean.class
 EasyUIPojo\EasyGrid.class
 EasyUIPojo\EasyUITree.class
 pojo\RestCategory.class
+pojo\RestProduct.class
+pojo\RestCategory2.class
 pojo\RestCategory$CategoriesBean$SubCategoriesBean.class

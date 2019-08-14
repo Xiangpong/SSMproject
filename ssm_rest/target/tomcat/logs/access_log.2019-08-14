@@ -1,0 +1,7 @@
+127.0.0.1 - - [14/Aug/2019:15:32:57 +0800] "GET /rest/productCategory/list HTTP/1.1" 200 3835 http-bio-8082-exec-1 386
+127.0.0.1 - - [14/Aug/2019:15:33:04 +0800] "GET /rest/product/list?category_id=16 HTTP/1.1" 200 6656 http-bio-8082-exec-3 59
+127.0.0.1 - - [14/Aug/2019:15:33:34 +0800] "GET /rest/product/list?category_id=26 HTTP/1.1" 200 603 http-bio-8082-exec-5 11
+127.0.0.1 - - [14/Aug/2019:15:33:39 +0800] "GET /rest/product/list?category_id=17 HTTP/1.1" 200 8925 http-bio-8082-exec-7 9
+127.0.0.1 - - [14/Aug/2019:15:34:00 +0800] "GET /rest/product/list?category_id=18 HTTP/1.1" 200 2042 http-bio-8082-exec-9 10
+127.0.0.1 - - [14/Aug/2019:15:34:05 +0800] "GET /rest/product/list?category_id=35 HTTP/1.1" 200 57 http-bio-8082-exec-1 4
+127.0.0.1 - - [14/Aug/2019:15:34:09 +0800] "GET /rest/product/list?category_id=54 HTTP/1.1" 200 57 http-bio-8082-exec-3 6

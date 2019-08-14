@@ -121,7 +121,7 @@ body { padding-top: 3rem; padding-bottom: 3rem; color: #5a5a5a; }
 
         <ul class="list-group list-group-flush">
           <#list c1.sub_categories as c2>
-          <li class="list-group-item">${c2.name}</li>
+          <li class="list-group-item"><a href="/product/list?category_id=${c2.cat_id}">${c2.name}</a></li>
           </#list>
         </ul>
 

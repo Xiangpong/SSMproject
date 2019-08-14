@@ -20,18 +20,14 @@ public class CategoryServiceImpl implements CategoryService {
 
     @Override
     public RestCategory getCategory() {
-
         try{
             String result = HttpClientUtil.httpGet( REST_URL+REST_CAT_URL);
             RestCategory restCategory = GsonUtil.formJson(RestCategory.class,result);
-
             return restCategory;
-
-
         }catch (IOException e){
             e.printStackTrace();
         }
-
         return null;
     }
+
 }

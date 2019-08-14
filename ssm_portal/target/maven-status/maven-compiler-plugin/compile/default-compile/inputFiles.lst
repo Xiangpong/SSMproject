@@ -2,4 +2,6 @@ H:\GitHubProject\SSMproject\ssm_portal\src\main\java\com\pong\portal\controller\
 H:\GitHubProject\SSMproject\ssm_portal\src\main\java\com\pong\portal\service\CategoryService.java
 H:\GitHubProject\SSMproject\ssm_portal\src\main\java\com\pong\portal\service\Impl\CategoryServiceImpl.java
 H:\GitHubProject\SSMproject\ssm_portal\src\main\java\com\pong\portal\controller\IndexController.java
+H:\GitHubProject\SSMproject\ssm_portal\src\main\java\com\pong\portal\service\ProductService.java
 H:\GitHubProject\SSMproject\ssm_portal\src\main\java\com\pong\portal\util\GsonUtil.java
+H:\GitHubProject\SSMproject\ssm_portal\src\main\java\com\pong\portal\service\Impl\ProductServiceImpl.java

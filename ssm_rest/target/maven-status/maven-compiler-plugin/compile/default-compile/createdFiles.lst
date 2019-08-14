@@ -1,3 +1,6 @@
 com\pong\rest\service\Impl\productCategoryServiceImpl.class
 com\pong\rest\controller\productCategoryController.class
+com\pong\rest\controller\productController.class
+com\pong\rest\service\productService.class
+com\pong\rest\service\Impl\productServiceImpl.class
 com\pong\rest\service\productCategoryService.class
