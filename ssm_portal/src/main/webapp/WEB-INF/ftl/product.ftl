@@ -106,31 +106,32 @@ body { padding-top: 3rem; padding-bottom: 3rem; color: #5a5a5a; }
   <div style="padding-bottom: 45px"><h2 class ="text-center">小说 <span class="badge badge-secondary">悬疑小说</span></h2></div>
   <div class="album py-5 bg-light" style="padding-top: 60px">
       <div class="container">
-       
         <div class="row">
-          <#list product as p >
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-              <img class="card-img-top" src="https://images-cn.ssl-images-amazon.com/images/I/51GcwZm-%2ByL.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h3>${p.name}</h3>
-                <small class="text-muted">${p.author}</small>
-                <p>---------------</p>
-                <p class="card-text">${p.description}</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">购买</button>
-                   
+        <#list product as p >
+          <div class="col-sm-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="http://192.168.46.128:8888/${p.img}" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">${p.name}</h5>
+                    <small>${p.author}</small>
+                    <p class="card-text" style="font-size: x-small">${p.description}</p>
+                    <p class="card-text"><small class="text-muted">${p.price}</small></p>
                   </div>
-                  <small class="text-muted">${p.price}</small>
                 </div>
               </div>
             </div>
           </div>
           </#list>
         </div>
+        </div>
       </div>
-    </div>
+
+      </div>
+  </div>
 
   <!-- FOOTER -->
   <footer class="container">
