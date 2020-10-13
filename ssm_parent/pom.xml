@@ -23,7 +23,7 @@
 
     <!--集中定义版本号-->
     <properties>
-        <junit.vesion>4.12</junit.vesion>
+        <junit.vesion>4.13.1</junit.vesion>
         <maven-resources-plugin>3.1.0</maven-resources-plugin>
         <maven-compiler-plugin>3.8.0</maven-compiler-plugin>
         <mybatis>3.2.8</mybatis>
